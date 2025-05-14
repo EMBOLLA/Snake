@@ -14,7 +14,7 @@ void PrintScreen( struct snake shane , struct fruit banana , int score){
         {
             if (x==shane.X && y==shane.Y)
             {
-                std::cout<<"O";
+                std::cout<<"S";
             } else if (x==banana.X && y==banana.Y)
             {
                 std::cout<<"c";
@@ -31,7 +31,7 @@ void PrintScreen( struct snake shane , struct fruit banana , int score){
                 }
                 if (isBody)
                 {
-                    std::cout<<"o";
+                    std::cout<<"s";
                 }else{
                     std::cout<<".";
                 }
